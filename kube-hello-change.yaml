@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
       - name: flask-change
-        image: flask-change:latest
+        image: docker.io/msaunby/flask-change:latest
         imagePullPolicy: Never
         ports:
         - containerPort: 8080
